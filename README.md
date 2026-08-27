@@ -8,6 +8,7 @@
 
 [![Release](https://img.shields.io/github/v/release/Pingy-Dev/pingy-releases?style=for-the-badge&labelColor=0d121c&color=806fff)](https://github.com/Pingy-Dev/pingy-releases/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Pingy-Dev/pingy-releases/total?style=for-the-badge&labelColor=0d121c&color=39dacd)](https://github.com/Pingy-Dev/pingy-releases/releases)
+[![Google Play](https://img.shields.io/badge/Google%20Play-установить-6de6b6?style=for-the-badge&logo=googleplay&logoColor=white&labelColor=0d121c)](https://play.google.com/store/apps/details?id=app.pingyvpn.android)
 [![Site](https://img.shields.io/badge/сайт-pingy.top-6de6b6?style=for-the-badge&labelColor=0d121c)](https://pingy.top)
 [![Telegram](https://img.shields.io/badge/telegram-PingyClient-39dacd?style=for-the-badge&labelColor=0d121c)](https://t.me/PingyClient)
 
@@ -17,13 +18,16 @@
 
 ## Скачать
 
-Ссылки **постоянные** — всегда ведут на последнюю версию, их можно сохранять и публиковать.
+В Google Play обновления приходят автоматически — это самый простой путь. APK нужен, если Play недоступен или нужна конкретная версия.
+
+Прямые ссылки ниже **постоянные** — всегда ведут на последнюю версию, их можно сохранять и публиковать.
 
 <div align="center">
 
 | Платформа | Требования | Загрузка |
 |:---|:---|:---|
-| **Android** | 7.0 и выше, arm64 | [**Скачать APK**](https://github.com/Pingy-Dev/pingy-releases/releases/latest/download/Pingy-Android-arm64.apk) |
+| **Android** | 7.0 и выше | [**Google Play**](https://play.google.com/store/apps/details?id=app.pingyvpn.android) |
+| **Android** (APK) | 7.0 и выше, arm64 | [**Скачать APK**](https://github.com/Pingy-Dev/pingy-releases/releases/latest/download/Pingy-Android-arm64.apk) |
 | **Windows** | 10 и выше, x64 | [**Скачать установщик**](https://github.com/Pingy-Dev/pingy-releases/releases/latest/download/Pingy-Desktop-x64-setup.exe) |
 
 </div>
