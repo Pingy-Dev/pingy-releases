@@ -4,84 +4,49 @@
 
 # Pingy VPN
 
-**Клиент для VPN-подключения: лёгкая настройка, стабильная работа и контроль без лишней сложности.**
+**Лёгкая настройка, стабильная работа и контроль без лишней сложности.**
 
 [![Release](https://img.shields.io/github/v/release/Pingy-Dev/pingy-releases?style=for-the-badge&labelColor=0d121c&color=806fff)](https://github.com/Pingy-Dev/pingy-releases/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Pingy-Dev/pingy-releases/total?style=for-the-badge&labelColor=0d121c&color=39dacd)](https://github.com/Pingy-Dev/pingy-releases/releases)
 [![Google Play](https://img.shields.io/badge/Google%20Play-установить-6de6b6?style=for-the-badge&logo=googleplay&logoColor=white&labelColor=0d121c)](https://play.google.com/store/apps/details?id=app.pingyvpn.android)
-[![Site](https://img.shields.io/badge/сайт-pingy.top-6de6b6?style=for-the-badge&labelColor=0d121c)](https://pingy.top)
-[![Telegram](https://img.shields.io/badge/telegram-PingyClient-39dacd?style=for-the-badge&labelColor=0d121c)](https://t.me/PingyClient)
+[![Site](https://img.shields.io/badge/сайт-pingy.top-806fff?style=for-the-badge&labelColor=0d121c)](https://pingy.top)
 
 </div>
 
 ---
+
+<div align="center">
 
 ## Скачать
 
-В Google Play обновления приходят автоматически — это самый простой путь. APK нужен, если Play недоступен или нужна конкретная версия.
-
-Прямые ссылки ниже **постоянные** — всегда ведут на последнюю версию, их можно сохранять и публиковать.
-
-<div align="center">
-
-| Платформа | Требования | Загрузка |
+| Платформа | | |
 |:---|:---|:---|
-| **Android** | 7.0 и выше | [**Google Play**](https://play.google.com/store/apps/details?id=app.pingyvpn.android) |
-| **Android** (APK) | 7.0 и выше, arm64 | [**Скачать APK**](https://github.com/Pingy-Dev/pingy-releases/releases/latest/download/Pingy-Android-arm64.apk) |
-| **Windows** | 10 и выше, x64 | [**Скачать установщик**](https://github.com/Pingy-Dev/pingy-releases/releases/latest/download/Pingy-Desktop-x64-setup.exe) |
+| **Android** | Google Play | [**Установить**](https://play.google.com/store/apps/details?id=app.pingyvpn.android) |
+| **Android** | APK · arm64 | [**Скачать**](https://github.com/Pingy-Dev/pingy-releases/releases/latest/download/Pingy-Android-arm64.apk) |
+| **Windows** | Установщик · x64 | [**Скачать**](https://github.com/Pingy-Dev/pingy-releases/releases/latest/download/Pingy-Desktop-x64-setup.exe) |
+
+[Все версии и что изменилось →](https://github.com/Pingy-Dev/pingy-releases/releases)
 
 </div>
 
-Все версии и история изменений — на [странице релизов](https://github.com/Pingy-Dev/pingy-releases/releases).
-
 ---
 
-## Что внутри
+## Возможности
 
-**Протоколы подключения** — VLESS с XTLS Vision, VMess, Trojan, Shadowsocks, Hysteria2, WireGuard, AmneziaWG 3.1, SOCKS5 и HTTP.
+**Подключение** — VLESS с XTLS Vision, VMess, Trojan, Shadowsocks, Hysteria2, WireGuard, AmneziaWG 3.1, SOCKS5 и HTTP.
 
-**Транспорт и маскировка** — Reality, TLS 1.3 с uTLS-отпечатками браузеров, XHTTP, gRPC, WebSocket, HTTPUpgrade, mKCP.
+**Маскировка** — Reality, TLS 1.3 с отпечатками браузеров, XHTTP, gRPC, WebSocket, HTTPUpgrade, mKCP.
 
-**Форматы подписок** — Remnawave, Marzban, обычный список ссылок, base64, Clash YAML и sing-box JSON. Отдельные ключи `vless://`, `vmess://`, `trojan://`, `ss://`, `hy2://`, `wg://` и `awg://` вставляются по одному.
+**Подписки** — Remnawave, Marzban, список ссылок, base64, Clash YAML и sing-box JSON. Отдельные ключи вставляются по одному.
 
-Полный список с пометками о различиях платформ — в [разделе протоколов](https://pingy.top/#protocols), параметры AmneziaWG — в [документации](https://pingy.top/docs#amneziawg).
+**Управление** — автовыбор быстрого сервера, раздельное туннелирование по приложениям, свои правила маршрутизации, DNS-профили и оформление под провайдера.
 
----
-
-## Проверка подлинности
-
-Скачанный файл стоит сверить перед установкой — это VPN-клиент, и подменённая сборка опаснее обычной.
-
-```
-Pingy-Android-arm64.apk        c035548e6bf382179e2b8e53a7afd0069ee7f6a4ecf3c449f0f5968571273428
-Pingy-Desktop-x64-setup.exe    c2411e0ca15c992cae60810c5cdf3c91e96117b36b28b8f91f6adc2d59d38646
-```
-
-Windows:
-
-```powershell
-Get-FileHash .\Pingy-Desktop-x64-setup.exe -Algorithm SHA256
-```
-
-Linux и macOS:
-
-```bash
-sha256sum Pingy-Android-arm64.apk
-```
-
-Контрольные суммы каждой версии публикуются в описании соответствующего релиза.
-
----
-
-## Ссылки
-
-- Сайт — [pingy.top](https://pingy.top)
-- Документация для провайдеров — [pingy.top/docs](https://pingy.top/docs)
-- Частые вопросы — [pingy.top/faq](https://pingy.top/faq)
-- Канал проекта — [@PingyClient](https://t.me/PingyClient)
+[Полный список протоколов →](https://pingy.top/#protocols) · [Документация для провайдеров →](https://pingy.top/docs)
 
 ---
 
 <div align="center">
-<sub>Этот репозиторий содержит только готовые сборки. Исходный код здесь не публикуется.</sub>
+
+[Сайт](https://pingy.top) · [Вопросы](https://pingy.top/faq) · [Telegram](https://t.me/PingyClient)
+
 </div>
