@@ -4,7 +4,9 @@
 
 # Pingy VPN
 
-**Лёгкая настройка, стабильная работа и контроль без лишней сложности.**
+**лёгкая настройка, стабильная работа и контроль без лишней сложности.**
+
+**Русский** · [English](README.en.md) · [Українська](README.uk.md) · [Türkçe](README.tr.md) · [فارسی](README.fa.md) · [中文](README.zh.md)
 
 [![Release](https://img.shields.io/github/v/release/Pingy-Dev/pingy-releases?style=for-the-badge&labelColor=0d121c&color=806fff)](https://github.com/Pingy-Dev/pingy-releases/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Pingy-Dev/pingy-releases/total?style=for-the-badge&labelColor=0d121c&color=39dacd)](https://github.com/Pingy-Dev/pingy-releases/releases)
@@ -37,9 +39,9 @@
 
 **Маскировка** — Reality, TLS 1.3 с отпечатками браузеров, XHTTP, gRPC, WebSocket, HTTPUpgrade, mKCP.
 
-**Подписки** — Remnawave, Marzban, список ссылок, base64, Clash YAML и sing-box JSON. Отдельные ключи вставляются по одному.
+**Подписки** — Remnawave, Marzban, 3x-ui, список ссылок, base64, Clash YAML и sing-box JSON. Отдельные ключи вставляются по одному.
 
-**Управление** — автовыбор быстрого сервера, раздельное туннелирование по приложениям, свои правила маршрутизации, DNS-профили и оформление под провайдера.
+**Управление** — Автовыбор быстрого сервера, раздельное туннелирование по приложениям, свои правила маршрутизации, DNS-профили и оформление под провайдера.
 
 [Полный список протоколов →](https://pingy.top/#protocols) · [Документация для провайдеров →](https://pingy.top/docs)
 
